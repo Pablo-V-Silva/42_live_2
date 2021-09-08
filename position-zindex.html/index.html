@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .sqpurple {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 150px;
+            height: 150px;
+            background: purple;
+        }
+
+        .sqred1 {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background:red;
+        }
+
+        .sqblue1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50px;
+            height: 50px;
+            background: blue;
+        }
+        .sqgreen1 {
+            position: absolute;
+            bottom: 0;
+            left: 100%;
+            width: 50px;
+            height: 50px;
+            background: green;
+        }
+
+        .sqred2 {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background:red;
+            margin-top: 1rem;
+        }
+
+        .blue1, .blue2, .blue3 {
+            width: 50px;
+            height: 50px;
+            background: blue;
+        }
+
+        .blue2 {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .blue3 {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        .green1 {
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            z-index: 1;
+            width: 50px;
+            height: 50px;
+            background: green;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="sqpurple"></div>
+
+    <div class="sqred1">
+        <div class="sqblue1"></div>
+        <div class="sqgreen1"></div>
+    </div>
+
+    <div class="sqred2">
+        <div class="blue1"></div>
+        <div class="blue2"></div>
+        <div class="blue3"></div>
+        <div class="green1"></div>
+    </div>
+    
+</body>
+</html>
